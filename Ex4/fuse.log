@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Xilinx/14.7/Projects/Ex4/main_module_isim_beh.exe -prj C:/Xilinx/14.7/Projects/Ex4/main_module_beh.prj work.main_module 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/14.7/Projects/Ex4/reg_element.vhd" into library work
+Parsing VHDL file "C:/Xilinx/14.7/Projects/Ex4/mux_element.vhd" into library work
+Parsing VHDL file "C:/Xilinx/14.7/Projects/Ex4/dc_element.vhd" into library work
+Parsing VHDL file "C:/Xilinx/14.7/Projects/Ex4/main_module.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity dc_element [dc_element_default]
+Compiling architecture behavioral of entity mux_element [mux_element_default]
+Compiling architecture behavioral of entity reg_element [reg_element_default]
+Compiling architecture behavioral of entity main_module
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable C:/Xilinx/14.7/Projects/Ex4/main_module_isim_beh.exe
+Fuse Memory Usage: 31656 KB
+Fuse CPU Usage: 718 ms

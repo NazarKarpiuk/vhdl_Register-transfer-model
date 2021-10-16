@@ -1,0 +1,4 @@
+vhdl isim_temp "reg_element.vhd"
+vhdl isim_temp "mux_element.vhd"
+vhdl isim_temp "dc_element.vhd"
+vhdl isim_temp "main_module.vhd"

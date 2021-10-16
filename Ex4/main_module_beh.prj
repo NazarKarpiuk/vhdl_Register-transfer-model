@@ -1,0 +1,4 @@
+vhdl work "reg_element.vhd"
+vhdl work "mux_element.vhd"
+vhdl work "dc_element.vhd"
+vhdl work "main_module.vhd"

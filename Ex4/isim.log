@@ -1,0 +1,55 @@
+ISim log file
+Running: C:\Xilinx\14.7\Projects\Ex4\main_module_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/14.7/Projects/Ex4/main_module_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /main_module/clk 0 -radix bin -value 1 -radix bin -time 5 ms -repeat 10 ms
+# isim force add /main_module/x 00000001 -radix bin
+# isim force add /main_module/y 00000010 -radix bin
+# isim force add /main_module/z 00000011 -radix bin
+# isim force add /main_module/ds 1 -radix bin
+# isim force add /main_module/muxsel 01 -radix bin
+# run 10 ms
+# run 10 ms
+# isim force add /main_module/muxsel 10 -radix bin
+# run 10 ms
+# run 10 ms
+# isim force add /main_module/muxsel 11 -radix bin
+# run 10 ms
+# run 10 ms
+# isim force remove /main_module/ds
+# isim force add /main_module/ds 0 -radix bin
+# isim force add /main_module/muxsel 00 -radix bin
+# run 10 ms
+# run 10 ms
+# restart
+# isim force add /main_module/x 00000001 -radix bin
+# isim force add /main_module/y 00000010 -radix bin
+# isim force add /main_module/z 00000011 -radix bin
+# isim force add /main_module/clk 0 -radix bin -value 1 -radix bin -time 5 ms -repeat 10 ms
+# isim force add /main_module/ds 0 -radix bin
+# isim force add /main_module/muxsel 00 -radix bin
+# run 10 ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /main_module/muxsel 01 -radix bin
+# run 10 ms
+# isim force add /main_module/muxsel 10 -radix bin
+# run 10 ms
+# isim force add /main_module/ds 1 -radix bin
+# isim force add /main_module/muxsel 00 -radix bin
+# run 10 ms
+# isim force add /main_module/muxsel 01 -radix bin
+# run 10 ms
+# isim force add /main_module/muxsel 10 -radix bin
+# run 10 ms
+# isim force add /main_module/muxsel 11 -radix bin
+# run 10 ms
